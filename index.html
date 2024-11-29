@@ -670,10 +670,13 @@
                             $('.miner').slick(
                             {
                                 centerMode: false,
-                                centerPadding: '60px',
+                                centerPadding: '0',
                                 slidesToShow: 5,
-                                autoplay: true,
+                                autoplay: false,
                                 autoplaySpeed: 9000,
+				arrows: false,
+                                dots: false,
+                                infinite: false,
                                 responsive: [{
                                         breakpoint: 1075,
                                         settings: {
