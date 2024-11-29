@@ -53,6 +53,36 @@
     <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/jquery.inputmask.min.js"></script>
     <meta name="google-site-verification" content="Xkh2hJexXwy6En0sRujP5Pzb0hBkSBdoU_zFh2G3ZPc" /> 
+
+	    <style>
+    @media (min-width: 768px) {
+        .miner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .miner > div {
+            flex: 0 0 auto;
+            width: 20%;
+            padding: 10px;
+        }
+        
+        .slick-slider {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .miner {
+            display: block;
+        }
+        
+        .slick-slider {
+            display: block;
+        }
+    }
+    </style>
     
 
 
